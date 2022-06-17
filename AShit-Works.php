@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>AShit | Random things</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="Images/saas-s-a-abstract-letters-260nw-1807739923.ico">
+</head>
+
+<body>
+    <div class=wrapper>
+
+        <header>
+            <div class=title>
+                <h1>Random things</h1>
+            </div>
+        </header>
+        <div class="checkbox">
+            <div class="nav">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <div class="menu">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="AShit-About-Me.php">About</a></li>
+                    <li><a href="AShit-Account-management.php">Contact</a></li>
+                </div>
+            </div>
+        </div>
+        <div class=text>
+            <p>
+                Currently I am not working on something big, and I also haven't done anything significant
+                in my span of programming. <br> Did you know that the bible is the most stolen book of books,
+                and there are more hats in Team Fortress 2 then there are forts in the EU. <br> Rick Astley is a british singer and his number 1 hit is "never gonna give you up", if you want you can listen to it down below.
+            </p>
+        </div>
+        <div class="rick">
+            <video width="720" height="480" controls>
+                <source src="Images/videoplayback.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</body>
+
+</html>
