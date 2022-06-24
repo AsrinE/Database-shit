@@ -17,43 +17,40 @@
             <div class="welcome">
                 <h1>Hello.</h1>
             </div>
+            
             <div class="info">
-            <h2>Dit is een test website van Asrin Ersin Ozseker.</h2>
+                <h2 style="font-size: 3vw;">Are you ready for the new censor free social media platform?</h2>
             </div>
         </header>                           
         
         <span class="Github">
             <a href="https://github.com/AsrinE">
-            <img alt="Github" src="Images/Github.png" width=60%>
+                <img alt="Github" src="Images/Github.png" width=60%>
             </a>
         </span>
-        
-        <div class="links">
-            <a href="https://www.linkedin.com/in/asrin-ersin-o-a9a121213/">
-                <img alt="LinkedIn" src="Images/Linkedin.png" width=50%>
-            </a>
-            <a href="https://twitter.com/">
-                <img alt="Twitter" src="Images/Twitter.png" width=60%>
-            </a>
-        </div>
 
         <div class="about">
-            <button class="buttonindex">
-                <a href="AShit-About-Me.html">About</a>
-            </button>
+            <div class="knop">
+                <button class="buttonindex">
+                    <a href="AShit-About-Me.php">About</a>
+                </button>
+            </div>
         </div>
         
         <div class="contact">
-            <button class="buttonindex">
-                <a href="AShit-Account-management.html">Account</a>
-            </button>
+            <div class="knop">
+                <button class="buttonindex">
+                    <a href="login.php">Account</a>
+                </button>
+            </div>
         </div>
         
         <div class="work">
-            <button class="buttonindex">
-                <a href="AShit-Works.html">Random</a>
-            </button>
-        </div>
+            <div class="knop">
+                <button class="buttonindex">
+                    <a href="AShit-Works.php">Random</a>
+                </button>
+            </div>  
         </div>
     </div>
 </body>

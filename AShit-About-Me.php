@@ -22,9 +22,9 @@
                 <span></span>
                 <span></span>
                 <div class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="AShit-Works.html">Random</a></li>
-                    <li><a href="AShit-Account-management.html">Account</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="AShit-Works.php">Random</a></li>
+                    <li><a href="login.php">Account</a></li>
                 </div>
             </div>
         </div>

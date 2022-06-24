@@ -1,7 +1,3 @@
-html, body{
-    overflow: hidden;
-}
-
 body {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -9,7 +5,9 @@ body {
     padding: 0;
     background-color: #80D0C7;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 40%, #80D0C7 70%, #ffffff 100%);
-    background-size: 100vw 100vh;
+    background-size: 100%;
+    width: 100%;
+    height: 110vh;
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
@@ -21,15 +19,15 @@ header{
 }
 
 .welcome{
-    font-size: 14vh;
+    font-size: 8vw;
 }
 
 .info{
-    font-size: 2vh;
+    font-size: 0.5vw;
 }
 
 .title{
-    font-size: 3vh;
+    font-size: 2vw;
 }
 
 .emailgif{
@@ -41,14 +39,19 @@ header{
 .form{
     grid-column: 4/8;
     grid-row: 3;
+    
+}
+.form2{
+    align-self: center;
     justify-content: center;
+    padding-bottom: 3vh;
 }
 
 .links{
     justify-content: center;
     text-align: center;
     align-items: top;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
     grid-row: 1;
     grid-column: 1;
     padding-bottom: 400%;
@@ -58,9 +61,9 @@ header{
     justify-content: center;
     text-align: left;
     align-items: top;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
     grid-row: 1;
-    grid-column: 2;
+    grid-column: 1;
     padding-bottom: 460%;
     
 }
@@ -69,7 +72,7 @@ header{
     grid-row: 1;
     grid-column: 1;
     align-items: bottom;
-    padding-top: 400%;
+    padding-top: 300%;
 }
 
 
@@ -77,14 +80,14 @@ header{
     grid-row: 1;
     grid-column: 10;
     align-items: top;
-    padding-bottom: 500%;
+    padding-bottom: 400%;
 }
 
 .contact{
     grid-row: 1;
     grid-column: 10;
     align-items: bottom;
-    padding-top: 400%;
+    padding-top: 270%;
 }
 
 a, a:link, a:visited{
@@ -96,20 +99,69 @@ a, a:link, a:visited{
 .buttonindex, .buttonindex:link, .buttonindex:visited {
     bottom: 0;
     right: 0;
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     border:none;
     border:solid 0.25vh rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
     background: rgba(255, 255, 255,0);
-    font-size: 2.25vh;
+    font-size: 2.25vw;
     font-weight: bold;
     text-decoration: none;
 }
 
-a:hover, .buttonindex:hover{
+a:hover, .buttonindex:hover > a, .knop:hover{
     background:rgb(255, 255, 255);
     color: black;
+    border-radius: 10px;
+}
+
+.buttonindex1, .buttonindex1:link, .buttonindex1:visited {
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    color: rgb(255, 255, 255);
+    border:solid 0.25vh rgb(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(255, 255, 255,0);
+    font-size: 2.25vw;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    padding: 1vh 4vw;
+}
+
+a:hover, .buttonindex1:hover > a, input:hover{
+    color: rgb(0, 0, 0);
+    border:solid 0.25vh rgb(255, 255, 255);
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.logbut{
+    padding: 1vh 1vw;
+}
+
+.box1 {
+    border-radius: 10px;
+    border:solid 0.25vh rgb(255, 255, 255);
+    width: 15vw;
+    height: 3vh;
+    align-content: left;
+}
+label{
+    font-size: 2vw;
+}
+
+.box2 {
+    height: 10vh;
+    width: 35vw;
+    align-self: center;
+    border-radius: 10px;
+    border:solid 0.25vh rgb(255, 255, 255);
+    background: transparent;
+
 }
 
 .WrapperIndex{
@@ -118,8 +170,8 @@ a:hover, .buttonindex:hover{
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: auto;
+    height: 90vh;
+    width: 95vw;
 } 
 
 .picture1{
@@ -139,7 +191,7 @@ img{
 .text{
     grid-column: 4/8;
     text-align: center;
-    font-size:1.5vh;
+    font-size:1.5vw;
 }
 
 .rick{
@@ -256,3 +308,39 @@ img{
     transform: translateY(0) rotate(45deg);
 }
 
+.post{
+    align-self: center;
+    justify-content: left; 
+    border:solid 0.25vh rgb(255, 255, 255); 
+    border-radius: 10px; 
+    padding: 1px 6px;
+    margin: 1vh;
+    justify-content: space-evenly;
+    font-size: 1vw;
+}
+.username{
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.postdate{
+    opacity: 0.5;
+}
+
+.knopjesmsg{
+    text-transform: lowercase; 
+    border:solid 0.25vh rgb(255, 255, 255); 
+    border-radius: 10px; 
+    padding: 1px 6px;
+    justify-content: space-evenly;
+    font-size: 2vw;
+}
+.deletebutton{
+    border:solid 0.25vh rgb(255, 255, 255); 
+    border-radius: 10px; 
+    background: transparent;
+    padding: 1px 6px;
+    color: white;
+    font-size: 1vw;
+}

@@ -24,7 +24,7 @@
                 <div class="menu">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="AShit-About-Me.php">About</a></li>
-                    <li><a href="AShit-Account-management.php">Contact</a></li>
+                    <li><a href="login.php">Contact</a></li>
                 </div>
             </div>
         </div>

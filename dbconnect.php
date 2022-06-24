@@ -1,17 +1,16 @@
 <?php
-
 	$servername = "localhost";
 	$username = "root";
-	$password = "root";
+	$password = "";
 	$database = "AsrinE.github DB";
 
 	$conn = mysqli_connect($servername,
 		$username, $password, $database);
 
-	if($conn) {
-		echo "success";
-	}
-	else {
-		die("Error". mysqli_connect_error());
-	}
+	// if($conn) {
+	// 	echo "success";
+	// }
+	// else {
+	// 	die("Error". mysqli_connect_error());
+	// }
 ?>
